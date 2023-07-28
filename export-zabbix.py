@@ -3,8 +3,8 @@ import json
 
 # Configurações do Zabbix
 url = 'http://seu_zabbix/api_jsonrpc.php'
-user = 'seu_usuario'
-password = 'sua_senha'
+user = 'user'
+password = 'password'
 
 # Função para fazer uma requisição à API do Zabbix
 def make_request(data):
